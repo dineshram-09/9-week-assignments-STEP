@@ -1,0 +1,1 @@
+class HallTicket06{final int number;HallTicket06(int n){number=n;}} public class Week06Problem04{public static void main(String[]z){HallTicket06 a=new HallTicket06(101),alias=a,b=new HallTicket06(101);System.out.println("alias == ticketA: "+(alias==a));System.out.println("ticketA == ticketB: "+(a==b));System.out.println("Same number: "+(a.number==b.number));}}

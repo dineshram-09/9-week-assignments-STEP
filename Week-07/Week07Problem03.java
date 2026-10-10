@@ -1,0 +1,1 @@
+import java.util.*; class PasswordChecker07{private final String password;PasswordChecker07(String p){password=p==null?"":p;}String getStrength(){return password.length()<6?"Weak":password.length()<=9?"Medium":"Strong";}} public class Week07Problem03{public static void main(String[]z){System.out.println(new PasswordChecker07(new Scanner(System.in).nextLine()).getStrength());}}
