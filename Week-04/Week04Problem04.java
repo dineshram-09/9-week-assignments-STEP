@@ -1,0 +1,1 @@
+import java.util.*; public class Week04Problem04{public static void main(String[]z){Scanner s=new Scanner(System.in);int n=s.nextInt();long k=s.nextLong(),sum=0,count=0;Map<Long,Integer>m=new HashMap<>();m.put(0L,1);for(int i=0;i<n;i++){sum+=s.nextLong();count+=m.getOrDefault(sum-k,0);m.put(sum,m.getOrDefault(sum,0)+1);}System.out.println(count);}}

@@ -1,0 +1,1 @@
+import java.util.*; public class Week05Problem01{public static void main(String[]z){Scanner s=new Scanner(System.in);int n=s.nextInt();int[]a=new int[n];for(int i=0;i<n;i++)a[i]=s.nextInt();int c=s.nextInt(),v=s.nextInt();for(int i=0;i<n;i++)if(i==c)a[i]*=2;else if(i==v)a[i]=(int)Math.round(a[i]*1.5);System.out.println(Arrays.toString(a));}}

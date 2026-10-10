@@ -1,0 +1,1 @@
+import java.util.*; public class Week05Problem02{public static void main(String[]z){Scanner s=new Scanner(System.in);int n=Integer.parseInt(s.nextLine().trim());String[]a=new String[n];for(int i=0;i<n;i++)a[i]=s.nextLine();for(int i=0;i<n;i++)for(int j=i+1;j<n;j++)if(a[i].equals(a[j])){System.out.println(a[i]);return;}System.out.println("No duplicates");}}
