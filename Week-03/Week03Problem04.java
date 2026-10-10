@@ -1,0 +1,1 @@
+class Product03D{String name;double price;Product03D(String name,double price){this.name=name;this.price=price;}} public class Week03Problem04{public static void main(String[] z){Product03D p=new Product03D("Notebook",49.5);System.out.println(p.name+" "+p.price);}}

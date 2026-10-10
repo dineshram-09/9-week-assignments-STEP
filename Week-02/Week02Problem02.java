@@ -1,0 +1,1 @@
+import java.util.*; public class Week02Problem02 {public static void main(String[] z){String[] a=new Scanner(System.in).nextLine().split("\\s+");for(int i=0;i<a.length;i++){if(i>0)System.out.print(" ");System.out.print(new StringBuilder(a[i]).reverse());}System.out.println();}}

@@ -1,0 +1,1 @@
+class ExamHall03B{int count;void increment(){count++;}} public class Week03Problem02{public static void main(String[] z){ExamHall03B a=new ExamHall03B(),b=new ExamHall03B();for(int i=0;i<4;i++)a.increment();System.out.println("Hall A: "+a.count);System.out.println("Hall B: "+b.count);}}

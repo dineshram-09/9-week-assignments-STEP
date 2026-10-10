@@ -1,0 +1,1 @@
+class Employee03C{String name;double salary;boolean manager;} public class Week03Problem03{public static void main(String[] z){Employee03C e=new Employee03C();System.out.println("name="+e.name);System.out.println("salary="+e.salary);System.out.println("manager="+e.manager);}}

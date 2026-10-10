@@ -1,0 +1,1 @@
+class Order03E{static int totalOrders;Order03E(){totalOrders++;}} public class Week03Problem05{public static void main(String[] z){for(int i=0;i<4;i++)new Order03E();System.out.println(Order03E.totalOrders);}}

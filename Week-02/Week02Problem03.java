@@ -1,0 +1,1 @@
+import java.util.*; public class Week02Problem03 {public static void main(String[] z){String[] a=new Scanner(System.in).nextLine().split(",",-1);if(a.length!=3){System.out.println("Invalid CSV: expected 3 fields");return;}for(String v:a)System.out.println(v.trim());}}

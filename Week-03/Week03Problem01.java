@@ -1,0 +1,1 @@
+import java.util.*; class Book03A{String title;double price;} public class Week03Problem01{public static void main(String[] z){Scanner s=new Scanner(System.in);Book03A b=new Book03A();b.title=s.nextLine();b.price=Double.parseDouble(s.nextLine());System.out.println("Title: "+b.title);System.out.printf("Price: %.2f%n",b.price);}}

@@ -1,0 +1,1 @@
+import java.util.*; public class Week02Problem04 {public static void main(String[] z){String a=new Scanner(System.in).nextLine().trim().toUpperCase();if(!a.matches("[A-Z]{3}\\d{10}")){System.out.println("Invalid code");return;}System.out.println("Publisher: "+a.substring(0,3));System.out.println("Year: "+a.substring(3,7));System.out.println("Catalog: "+a.substring(7));}}

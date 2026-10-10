@@ -1,0 +1,1 @@
+import java.util.*; public class Week01Problem05 {public static void main(String[] z){Scanner s=new Scanner(System.in);int n=Integer.parseInt(s.nextLine().trim());for(int i=0;i<n;i++){String w=s.nextLine();int l=w.length();System.out.println(w+": "+(l<=4?"Short":l<=8?"Medium":"Long"));}}}

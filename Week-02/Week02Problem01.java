@@ -1,0 +1,1 @@
+import java.util.*; public class Week02Problem01 {public static void main(String[] z){String p=new Scanner(System.in).nextLine();System.out.println(p.matches("\\d{4}")?"Valid PIN":"Invalid PIN");}}
