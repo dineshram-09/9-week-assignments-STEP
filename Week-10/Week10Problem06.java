@@ -1,0 +1,42 @@
+import java.util.Scanner;
+
+/**
+ * Problem 6: Class Attendance Tracker
+ *
+ * Counts present days and the longest consecutive streak in one pass.
+ * Time complexity: O(n)
+ * Auxiliary space complexity: O(1), excluding the input array.
+ */
+public class Week10Problem06 {
+    // Returns {number of present days, longest unbroken attendance streak}.
+    public static int[] attendanceSummary(int[] days) {
+        int present = 0;
+        int currentStreak = 0;
+        int longestStreak = 0;
+
+        for (int day : days) {
+            if (day == 1) {
+                present++;
+                currentStreak++;
+                longestStreak = Math.max(longestStreak, currentStreak);
+            } else {
+                currentStreak = 0;
+            }
+        }
+
+        return new int[] { present, longestStreak };
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int[] days = new int[n];
+
+        for (int i = 0; i < n; i++) {
+            days[i] = sc.nextInt();
+        }
+
+        int[] result = attendanceSummary(days);
+        System.out.println("Present: " + result[0] + ", Longest streak: " + result[1]);
+    }
+}
